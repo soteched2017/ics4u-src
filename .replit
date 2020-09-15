@@ -1,0 +1,2 @@
+run = "java -version && javac HelloWorld.java && java HelloWorld"
+language = "java" # openjdk version "11.0.7" 2020-04-14
