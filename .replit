@@ -1,4 +1,8 @@
-run = "java -version && javac unit1/helloworld/HelloWorld.java && java -cp .:./unit1 helloworld.HelloWorld"
+# run = "java -version && javac unit1/helloworld/HelloWorld.java && java -cp .:./unit1 helloworld.HelloWorld"
+
+# run = "java -version && javac unit1/Unit1Main.java unit1/CodedGUI.java unit1/NetBeansJFrameForm.java && java -cp . unit1.Unit1Main"
+
+run = "java -version && javac Main.java unit1/Unit1Main.java unit1/CodedGUI.java unit1/NetBeansJFrameForm.java && java -cp . Main"
 
 language = "java" 
 # openjdk version "11.0.7" 2020-04-14

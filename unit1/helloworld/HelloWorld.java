@@ -11,7 +11,7 @@
 * @see    Assignment 1.5.2
 */
 
-package helloworld;
+package unit1.helloworld;
 
 public class HelloWorld {
 
