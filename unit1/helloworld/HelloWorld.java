@@ -1,14 +1,15 @@
 /**
 *
-* Hello World
+* hello world
 *
-* Unit 1 Examples for Computer Science, 12 
+* unit 1 examples for computer science, 12 
 *
-* modified 20200806
-* date     20200705
-* @author  unknown and vmso
-* @version 1.0
-* @see    Assignment 1.5.2
+* modified  20200919
+* date      20200705
+* @filename	HelloWorld.java
+* @author   unknown and vmso - virtual mr. so
+* @version  1.0
+* @see      assignment 1.3
 */
 
 package unit1.helloworld;

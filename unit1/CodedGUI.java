@@ -1,11 +1,12 @@
 /**
- * Description:	This program demonstrates the use of graphics.
+ * this program demonstrates the use of graphics
  * 
- * @filename	HelloWorld
- * @author	Your name here
- * @since       
- * @version
- * @date	Current date here ${date?date?string("yyyy.mm.dd")} 
+ * modified     20200919
+ * date         20200705
+ * @filename	CodedGUI.java
+ * @author      unknown and vmso - virtual mr. so
+ * @version     1.0
+ * @see         unit 1 content
  */
 
 package unit1;

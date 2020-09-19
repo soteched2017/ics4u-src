@@ -1,17 +1,24 @@
 /**
-* Examples for Computer Science, 12 
-*
-* modified 20200915
-* date     20200705
-* @author  unknown and vmso
-* @version 1.0
-* @see     unit 1 content, assignments 1.3 thorugh 1.7
-*/
+ * examples for computer science, 12 
+ * Toronto, Canada
+ *
+ * https://github.com/soteched2017/ics4u-src
+ * https://repl.it/@soteched2017/ics4u-src#Main.java
+ *
+ * modified     20200919
+ * date         20200915
+ * @filename	Main.java
+ * @author      unknown and vmso - virtual mr. so
+ * @version     1.0
+ * @see         units 1 through 4 content
+ */
 
 class Main {
 
     public static void main (String[] args) {
+
         new unit1.Unit1Main().main(null);
+        
     }
 
 }

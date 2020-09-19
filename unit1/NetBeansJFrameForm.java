@@ -1,3 +1,15 @@
+/**
+ * this program demonstrates the use of graphics in NetBeans
+ * 
+ * modified     20200919
+ * date         20200705
+ * @filename	NetBeansJFrameForm.java
+ * @author      unknown and vmso - virtual mr. so
+ * @version     1.0
+ * @see         unit 1 content
+ */
+
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
