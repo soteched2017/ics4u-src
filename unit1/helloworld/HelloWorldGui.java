@@ -9,7 +9,7 @@
 * @filename	HelloWorldGui.java
 * @author   unknown and vmso - virtual mr. so
 * @version  1.0
-* @see      assignment 1.3
+* @see      1.3 content and assignment
 */
 
 package unit1.helloworld;
@@ -20,6 +20,7 @@ import java.awt.*;
 public class HelloWorldGui extends JFrame {
 
     public HelloWorldGui () {
+        
         super ("Hello World GUI!");
         
         JFrame.setDefaultLookAndFeelDecorated(true);
@@ -28,15 +29,16 @@ public class HelloWorldGui extends JFrame {
         
         // JLabel changed to JTextArea
         // to do: nvestigate properties of JTextArea
-        JTextArea ta = new JTextArea("The Wonderful Thing About Tiggers\nThis is a test\n");
-        
+        // i.e. ta should be read-only, not editable
+        JTextArea ta = new JTextArea("The Wonderful Thing About Tiggers\nThis is a test\n");        
+
         FlowLayout flo = new FlowLayout();
         setLayout(flo);
         add(ta);
 
         setVisible(true);
         
-        System.out.println("hello world");
+        // System.out.println("hello world");
     }
     
     /**

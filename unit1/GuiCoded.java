@@ -1,9 +1,10 @@
 /**
  * this program demonstrates the use of graphics
+ * also, see the NetBeams version NetBeansJFrameForm
  * 
  * modified     20200919
  * date         20200705
- * @filename	CodedGUI.java
+ * @filename	GuiCoded.java
  * @author      unknown and vmso - virtual mr. so
  * @version     1.0
  * @see         unit 1 content
@@ -16,18 +17,15 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class CodedGUI extends JFrame{
+public class GuiCoded extends JFrame{
     
-    public CodedGUI () {
+    public GuiCoded () {
 
         super ("manually coded GUI"); // https://chortle.ccsu.edu/java5/index.html#56
         
-        setDefaultLookAndFeelDecorated(true);
-        
-        setSize(400,500);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultLookAndFeelDecorated(true);        
         // getContentPane().setLayout(new FlowLayout());
-        setLayout(null);
+        setLayout(null);        
         
         JLabel pageLabel = new JLabel("enter some number");
         JTextField input = new JTextField("input");
@@ -62,6 +60,9 @@ public class CodedGUI extends JFrame{
             }
         });
         
+        setSize(300,400);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setLocationRelativeTo(null);
         setVisible(true);
         
         
@@ -72,6 +73,6 @@ public class CodedGUI extends JFrame{
      */
     public static void main(String[] args) {
         System.out.println("NetBeansJFrameForm main()");
-        CodedGUI hw = new CodedGUI();
+        GuiCoded cg = new GuiCoded();
     }
 }

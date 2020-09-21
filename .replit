@@ -1,20 +1,80 @@
-#########
-# unit 1
-#########
+#####################################
+# run all 
+#####################################
 
 # run = "java -version && javac Main.java && java -cp . Main"
 
-# assignment 1.3 starter
-run = "javac unit1/helloworld/HelloWorldGui.java && java -cp . unit1.helloworld.HelloWorldGui"
 
-# run = "java -version && javac unit1/helloworld/HelloWorld.java && java -cp .:./unit1 helloworld.HelloWorld"
+#####################################
+# clean all
+#####################################
 
-# run = "java -version && javac unit1/Unit1Main.java unit1/CodedGUI.java unit1/NetBeansJFrameForm.java && java -cp . unit1.Unit1Main"
+# run = "rm *.class unit1/*.class unit1/helloworld/*.class"
 
-# run = "java -version && javac Main.java unit1/Unit1Main.java unit1/CodedGUI.java unit1/NetBeansJFrameForm.java && java -cp . Main"
 
-###########
+#####################################
+# unit 1
+#####################################
+
+# run = "javac unit1/Unit1Main.java && java -cp . unit1.Unit1Main"
+
+# 1.3 assignment starter
+########################
+
+# run = "java -version && javac unit1/helloworld/HelloWorldGui#.java && java -cp . unit1.helloworld.HelloWorldGui"
+
+# 1.4 div mod app eclipse
+#########################
+
+# run = "javac -d ide-project/eclipse-2020-06/DivModApp/bin ide-project/eclipse-2020-06/DivModApp/src/DivModApp.java && java -cp .:ide-project/eclipse-2020-06/DivModApp/bin DivModApp"
+
+# 1.4 div mod app netbeans
+##########################
+
+# run = "javac -d ide-project/netbeans-12/DivModApp/build/classes ide-project/netbeans-12/DivModApp/src/DivModApp.java && java -cp .:ide-project/netbeans-12/DivModApp/build/classes DivModApp"
+
+# 1.4 div mod app intellij
+##########################
+
+# to do: generate code
+# run = "javac -d ide-project/intellij-2020-1-2/DivModApp/bin ide-project/intellij-2020-1-2/DivModApp/src/DivModApp.java && java -cp .:ide-project/intellij-2020-1-2/DivModApp/bin DivModApp"
+
+# 1.5.2 roller coaster
+######################
+
+# run = "javac -d ide-project/eclipse-2020-06/RollerCoaster/bin ide-project/eclipse-2020-06/RollerCoaster/src/RollerCoaster.java && java -cp .:ide-project/eclipse-2020-06/RollerCoaster/bin/ RollerCoaster"
+
+
+#####################################
+# unit 2
+#####################################
+
+# run = "javac unit2/Unit2Main.java && java -cp . unit2.Unit2Main"
+
+# 2.2 student records eclipse
+#############################
+
+# run = "javac -d ide-project/eclipse-2020-06/StudentRecords/bin ide-project/eclipse-2020-06/StudentRecords/src/StudentRecord.java && java -cp .:ide-project/eclipse-2020-06/StudentRecords/bin/ StudentRecord"
+
+# 2.2 student records netbeans
+##############################
+
+# run = "javac -d ide-project/netbeans-12/StudentRecordsProject/build/classes ide-project/netbeans-12/StudentRecordsProject/src/StudentRecords.java && java -cp .:ide-project/netbeans-12/StudentRecordsProject/build/classes StudentRecords"
+
+
+#####################################
+# unit 4#
+#####################################
+
+# to do
+
+
+#####################################
 # optional
-###########
+#####################################
+
 language = "java" 
+
+# note: cannot change version
+# openjdk version "11.0.8" 2020-07-14
 # openjdk version "11.0.7" 2020-04-14

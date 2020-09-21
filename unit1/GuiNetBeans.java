@@ -1,9 +1,10 @@
 /**
  * this program demonstrates the use of graphics in NetBeans
+ * also, see the manually coded version CodedGUI
  * 
  * modified     20200919
  * date         20200705
- * @filename	NetBeansJFrameForm.java
+ * @filename	GuiNetBeans.java
  * @author      unknown and vmso - virtual mr. so
  * @version     1.0
  * @see         unit 1 content
@@ -22,12 +23,13 @@ package unit1;
  *
  * @author ke
  */
-public class NetBeansJFrameForm extends javax.swing.JFrame {
+public class GuiNetBeans extends javax.swing.JFrame {
 
     /**
-     * Creates new form NetBeansJFrameForm
+     * Creates new form GuiNetBeans
      */
-    public NetBeansJFrameForm() {
+    public GuiNetBeans() {
+        javax.swing.JFrame.setDefaultLookAndFeelDecorated(true);
         initComponents();
     }
 
@@ -126,6 +128,8 @@ public class NetBeansJFrameForm extends javax.swing.JFrame {
      */
     public static void main(String args[]) {
         
+        javax.swing.JFrame.setDefaultLookAndFeelDecorated(true);
+        
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
@@ -139,20 +143,20 @@ public class NetBeansJFrameForm extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(NetBeansJFrameForm.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(GuiNetBeans.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(NetBeansJFrameForm.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(GuiNetBeans.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(NetBeansJFrameForm.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(GuiNetBeans.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(NetBeansJFrameForm.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(GuiNetBeans.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new NetBeansJFrameForm().setVisible(true);
+                new GuiNetBeans().setVisible(true);
             }
         });
     }
