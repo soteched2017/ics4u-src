@@ -18,11 +18,21 @@ public class Unit2Main {
 
     public static void main(String[] args) {
 
-        print1(); // prints 1.1 content
+        print2(); // prints 2.2 content
+        pinrt3(); 
 
     }
 
-    public static void print1() {
+    /**
+    * 2.2 content examples
+    *
+    * @param        none
+    * @return       none
+    * @exception    none
+    * @see          2.2 content
+    */
+    public static void print2() {
+
         System.out.println("//////////////////////////////////////////////////////");
         System.out.println("// 1.1 arrays");
         System.out.println("//////////////////////////////////////////////////////");
@@ -122,9 +132,17 @@ public class Unit2Main {
         }
 
         System.out.println("// see StudentRecords in ide-project/netbeans-12");
-
-
-
-
     }
+
+
+    /**
+    * 2.3 content examples
+    *
+    * @param        none
+    * @return       none
+    * @exception    none
+    * @see          2.3 content
+    */
+    public static void print3() {
+        
 }
