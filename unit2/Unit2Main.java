@@ -19,7 +19,7 @@ public class Unit2Main {
     public static void main(String[] args) {
 
         print2(); // prints 2.2 content
-        pinrt3(); 
+        print3(); 
 
     }
 
@@ -132,6 +132,7 @@ public class Unit2Main {
         }
 
         System.out.println("// see StudentRecords in ide-project/netbeans-12");
+        System.out.println("// see StudentRecords in ide-project/eclipse-2020-06");
     }
 
 
@@ -144,5 +145,6 @@ public class Unit2Main {
     * @see          2.3 content
     */
     public static void print3() {
-        
+
+    }
 }

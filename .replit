@@ -49,7 +49,7 @@
 # unit 2
 #####################################
 
-# run = "javac unit2/Unit2Main.java && java -cp . unit2.Unit2Main"
+run = "javac unit2/Unit2Main.java && java -cp . unit2.Unit2Main"
 
 # 2.2 student records eclipse
 #############################
