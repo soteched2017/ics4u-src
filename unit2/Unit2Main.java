@@ -34,7 +34,7 @@ public class Unit2Main {
     public static void print2() {
 
         System.out.println("//////////////////////////////////////////////////////");
-        System.out.println("// 1.1 arrays");
+        System.out.println("// 2.2 arrays");
         System.out.println("//////////////////////////////////////////////////////");
 
         System.out.println("// example 1 method 1 - declare, initialize, and list values using variables (vars)");
@@ -131,8 +131,13 @@ public class Unit2Main {
             System.out.println(fruits[x]);
         }
 
+        System.out.println();
         System.out.println("// see StudentRecords in ide-project/netbeans-12");
         System.out.println("// see StudentRecords in ide-project/eclipse-2020-06");
+        System.out.println();
+        System.out.println("// assignment 2.2 starter project,");
+        System.out.println("// see SumElement in ide-project/eclipse-2020-06");
+        
     }
 
 
@@ -145,6 +150,13 @@ public class Unit2Main {
     * @see          2.3 content
     */
     public static void print3() {
+
+        System.out.println();
+        System.out.println("//////////////////////////////////////////////////////");
+        System.out.println("// 2.3 content");
+        System.out.println("//////////////////////////////////////////////////////");
+        System.out.println("// see MatchingGame in ide-project/eclipse-2020-06");
+        System.out.println("// see MatchingGame in ide-project/netbeans-12");
 
     }
 }
