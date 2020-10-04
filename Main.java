@@ -18,7 +18,7 @@ class Main {
     public static void main (String[] args) {
 
         new unit1.Unit1Main().main(null);
-        new unit2.Unit1Main().main(null);
+        new unit2.Unit2Main().main(null);
         // new unit3.Unit1Main().main(null);
         // new unit4.Unit1Main().main(null);
         
