@@ -48,7 +48,7 @@
 # unit 2
 #####################################
 
-run = "javac unit2/Unit2Main.java && java -cp . unit2.Unit2Main"
+# run = "javac unit2/Unit2Main.java && java -cp . unit2.Unit2Main"
 
 # 2.2 student records eclipse
 #############################
@@ -73,6 +73,8 @@ run = "javac unit2/Unit2Main.java && java -cp . unit2.Unit2Main"
 # 2.5 tictactoe game
 ####################
 
+# note: the window is too big for repl.it, please download and run in NetBeans first
+
 # run = "javac -d ide-project/netbeans-12/TicTac/build/classes ide-project/netbeans-12/TicTac/src/TicTacEvent.java ide-project/netbeans-12/TicTac/src/TicTac.java && java -cp .:ide-project/netbeans-12/TicTac/build/classes TicTac"
 
 # 2.6 ObjectArrayExample_1
@@ -88,7 +90,7 @@ run = "javac unit2/Unit2Main.java && java -cp . unit2.Unit2Main"
 # 2.6 CarsExample
 #################
 
-# run = "javac -d ide-project/netbeans-12/CarsExample/build/classes ide-project/netbeans-12/CarsExample/src/carsexample/CarsExampleApp.java ide-project/netbeans-12/CarsExample/src/carsexample/CarsExampleAboutBox.java ide-project/netbeans-12/CarsExample/src/carsexample/CarsExampleView.java && java -cp .:ide-project/netbeans-12/CarsExample/build/classes carsexample.Main"
+run = "javac -d ide-project/netbeans-12/CarsExample/build/classes ide-project/netbeans-12/CarsExample/src/carsexample/CarsExampleApp.java ide-project/netbeans-12/CarsExample/src/carsexample/CarsExampleAboutBox.java ide-project/netbeans-12/CarsExample/src/carsexample/CarsExampleView.java && java -cp .:ide-project/netbeans-12/CarsExample/build/classes carsexample.Main"
 
 #####################################
 # unit 3
