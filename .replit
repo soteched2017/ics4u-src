@@ -48,7 +48,7 @@
 # unit 2
 #####################################
 
-run = "javac unit2/Unit2Main.java && java -cp . unit2.Unit2Main"
+# run = "javac unit2/Unit2Main.java && java -cp . unit2.Unit2Main"
 
 # 2.2 student records eclipse
 #############################
@@ -92,6 +92,8 @@ run = "javac unit2/Unit2Main.java && java -cp . unit2.Unit2Main"
 
 # see read me pdf
 
+# notice: mkdir and cp resources
+
 # note: upload lib/ from
 #           https://search.maven.org
 #       search for 
@@ -107,8 +109,25 @@ run = "javac unit2/Unit2Main.java && java -cp . unit2.Unit2Main"
 # unit 3
 #####################################
 
-# to do
+run = "javac unit3/Unit3Main.java && java -cp . unit3.Unit3Main"
 
+# 3.2 Hanoi
+###########
+
+# run = "javac -d ide-project/netbeans-12/Hanoi/build/classes -cp .:ide-project/netbeans-12/Hanoi/src ./ide-project/netbeans-12/Hanoi/src/hanoi/Main.java && java -cp .:./ide-project/netbeans-12/Hanoi/build/classes hanoi.Main"
+
+
+# 3.2 WordScramble
+##################
+
+# run = "javac -d ide-project/netbeans-12/WordScramble/build/classes -cp .:ide-project/netbeans-12/WordScramble/src ./ide-project/netbeans-12/WordScramble/src/wordscramble/Main.java && java -cp .:./ide-project/netbeans-12/WordScramble/build/classes wordscramble.Main"
+
+
+#####################################
+# unit 4
+#####################################
+
+# to do
 
 #####################################
 # optional

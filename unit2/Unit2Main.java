@@ -3,7 +3,7 @@
  * unit 2 examples for computer science, 12 
  *
  *
- * modified     20200920
+ * modified     20201011
  * date         20200920
  * @filename	Unit2Main.java
  * @author      unknown and vmso - virtual mr. so
