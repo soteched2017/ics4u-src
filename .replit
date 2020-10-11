@@ -91,7 +91,14 @@
 #################
 
 # see read me pdf
-# note: upload lib/
+
+# note: upload lib/ from
+#           https://search.maven.org
+#       search for 
+#           swing-worker-1.1.jar
+#           swing-layout-1.0.3.jar
+#           appframework-1.0.3.jar
+
 
 run = "mkdir -p ide-project/netbeans-12/CarsExample/build/classes && javac -d ide-project/netbeans-12/CarsExample/build/classes -cp ide-project/netbeans-12/CarsExample/lib/appframework-1.0.3.jar:ide-project/netbeans-12/CarsExample/lib/swing-worker-1.1.jar:ide-project/netbeans-12/CarsExample/lib/swing-layout-1.0.3.jar ide-project/netbeans-12/CarsExample/src/carsexample/CarsExampleApp.java ide-project/netbeans-12/CarsExample/src/carsexample/CarsExampleAboutBox.java ide-project/netbeans-12/CarsExample/src/carsexample/CarsExampleView.java && cp -r ide-project/netbeans-12/CarsExample/src/carsexample/resources ide-project/netbeans-12/CarsExample/build/classes/carsexample/ && java -cp .:ide-project/netbeans-12/CarsExample/build/classes:ide-project/netbeans-12/CarsExample/lib/appframework-1.0.3.jar:ide-project/netbeans-12/CarsExample/lib/swing-worker-1.1.jar:ide-project/netbeans-12/CarsExample/lib/swing-layout-1.0.3.jar carsexample.CarsExampleApp"
 
