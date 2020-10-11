@@ -30,7 +30,7 @@ public class CarsExampleView extends FrameView {
         super(app);
 
         initComponents();
-
+        
         // status bar initialization - message timeout, idle icon and busy animation, etc
         ResourceMap resourceMap = getResourceMap();
         int messageTimeout = resourceMap.getInteger("StatusBar.messageTimeout");
@@ -84,6 +84,7 @@ public class CarsExampleView extends FrameView {
                 }
             }
         });
+
     }
 
     @Action

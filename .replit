@@ -90,7 +90,11 @@
 # 2.6 CarsExample
 #################
 
-run = "javac -d ide-project/netbeans-12/CarsExample/build/classes ide-project/netbeans-12/CarsExample/src/carsexample/CarsExampleApp.java ide-project/netbeans-12/CarsExample/src/carsexample/CarsExampleAboutBox.java ide-project/netbeans-12/CarsExample/src/carsexample/CarsExampleView.java && java -cp .:ide-project/netbeans-12/CarsExample/build/classes carsexample.Main"
+# see read me pdf
+# note: resources are in ide-project/netbeans-12/CarsExample/src 
+
+run = "javac -d ide-project/netbeans-12/CarsExample/build/classes -cp ide-project/netbeans-12/CarsExample/lib/appframework-1.0.3.jar:ide-project/netbeans-12/CarsExample/lib/swing-worker-1.1.jar:ide-project/netbeans-12/CarsExample/lib/swing-layout-1.0.3.jar ide-project/netbeans-12/CarsExample/src/carsexample/CarsExampleApp.java ide-project/netbeans-12/CarsExample/src/carsexample/CarsExampleAboutBox.java ide-project/netbeans-12/CarsExample/src/carsexample/CarsExampleView.java && java -cp .:ide-project/netbeans-12/CarsExample/src:ide-project/netbeans-12/CarsExample/build/classes:ide-project/netbeans-12/CarsExample/lib/appframework-1.0.3.jar:ide-project/netbeans-12/CarsExample/lib/swing-worker-1.1.jar:ide-project/netbeans-12/CarsExample/lib/swing-layout-1.0.3.jar carsexample.CarsExampleApp"
+
 
 #####################################
 # unit 3
