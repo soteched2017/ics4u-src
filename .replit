@@ -48,7 +48,7 @@
 # unit 2
 #####################################
 
-# run = "javac unit2/Unit2Main.java && java -cp . unit2.Unit2Main"
+run = "javac unit2/Unit2Main.java && java -cp . unit2.Unit2Main"
 
 # 2.2 student records eclipse
 #############################
@@ -100,7 +100,7 @@
 #           appframework-1.0.3.jar
 
 
-run = "mkdir -p ide-project/netbeans-12/CarsExample/build/classes && javac -d ide-project/netbeans-12/CarsExample/build/classes -cp ide-project/netbeans-12/CarsExample/lib/appframework-1.0.3.jar:ide-project/netbeans-12/CarsExample/lib/swing-worker-1.1.jar:ide-project/netbeans-12/CarsExample/lib/swing-layout-1.0.3.jar ide-project/netbeans-12/CarsExample/src/carsexample/CarsExampleApp.java ide-project/netbeans-12/CarsExample/src/carsexample/CarsExampleAboutBox.java ide-project/netbeans-12/CarsExample/src/carsexample/CarsExampleView.java && cp -r ide-project/netbeans-12/CarsExample/src/carsexample/resources ide-project/netbeans-12/CarsExample/build/classes/carsexample/ && java -cp .:ide-project/netbeans-12/CarsExample/build/classes:ide-project/netbeans-12/CarsExample/lib/appframework-1.0.3.jar:ide-project/netbeans-12/CarsExample/lib/swing-worker-1.1.jar:ide-project/netbeans-12/CarsExample/lib/swing-layout-1.0.3.jar carsexample.CarsExampleApp"
+# run = "mkdir -p ide-project/netbeans-12/CarsExample/build/classes && javac -d ide-project/netbeans-12/CarsExample/build/classes -cp ide-project/netbeans-12/CarsExample/lib/appframework-1.0.3.jar:ide-project/netbeans-12/CarsExample/lib/swing-worker-1.1.jar:ide-project/netbeans-12/CarsExample/lib/swing-layout-1.0.3.jar ide-project/netbeans-12/CarsExample/src/carsexample/CarsExampleApp.java ide-project/netbeans-12/CarsExample/src/carsexample/CarsExampleAboutBox.java ide-project/netbeans-12/CarsExample/src/carsexample/CarsExampleView.java && cp -r ide-project/netbeans-12/CarsExample/src/carsexample/resources ide-project/netbeans-12/CarsExample/build/classes/carsexample/ && java -cp .:ide-project/netbeans-12/CarsExample/build/classes:ide-project/netbeans-12/CarsExample/lib/appframework-1.0.3.jar:ide-project/netbeans-12/CarsExample/lib/swing-worker-1.1.jar:ide-project/netbeans-12/CarsExample/lib/swing-layout-1.0.3.jar carsexample.CarsExampleApp"
 
 
 #####################################

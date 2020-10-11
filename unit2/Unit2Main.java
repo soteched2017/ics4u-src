@@ -369,17 +369,21 @@ public class Unit2Main {
         name.clear(); // removes all elements in the ArrayList
         name.size();
 
+        System.out.println();
         System.out.println("// see ObjectArrayExample_1 in ide-project/netbeans-12");
-        // note: do not use _ understore in Class names
+        System.out.println("// note: do not use _ understore in Class names");
+        
 
         arrayListOfArrayList();
 
-        
+        System.out.println();
         System.out.println("// see ArrayListSolution in ide-project/netbeans-12");
 
-        // System.out.println("// see CarsExample in ide-project/netbeans-12");
-        // needs old NetBeans library
-        // to do: update
+
+        System.out.println();
+        System.out.println("// see CarsExample in ide-project/netbeans-12");
+        System.out.println("// see 2.6 CarsExample in .replit");
+        System.out.println("// uses older swing libraries in Maven repo");
     }
 
     
