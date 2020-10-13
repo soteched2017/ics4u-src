@@ -19,7 +19,7 @@ public class Unit3Main {
     public static void main(String[] args) {
 
         print2(); // 3.2 content
-        // print3();
+        print3();
         // print4();
         // print5();
         // print6();
@@ -172,4 +172,111 @@ public class Unit3Main {
             }
         }
     }
+
+
+    /**
+    *
+    * 3.3 content examples
+    *
+    */
+    public static void print3() {
+
+        System.out.println("//////////////////////////////////////////////////////");
+        System.out.println("// 3.3 searching routines");
+        System.out.println("//////////////////////////////////////////////////////");
+
+        // linearSearch();
+        // sortedLinearSearch();
+        System.out.println();
+        System.out.println("// 3.3 see LinearSearch NetBeans project");
+        // java -cp unit3/LinearSearch/build/classes linearsearch.LinearSearch
+        
+        // binarySearch // recursive
+        // binarySearchIteration
+        // binarySearchFileRead
+
+        System.out.println();
+        System.out.println("// 3.3 see BinarySearch NetBeans project");
+        // java -cp unit3/BinarySearch/build/classes binarysearch.BinarySearch
+
+        System.out.println("// 3.3 see BinarySearchIteration NetBeans project");
+        // java -cp unit3/BinarySearchIteration/build/classes binarysearchiteration.BinarySearchIteration
+
+        // TO DO: fix path
+        System.out.println("// 3.3 see BinarySearchFileRead NetBeans project");        
+        // java -cp unit3/BinarySearchFileRead:unit3/BinarySearchFileRead/build/classes binarysearch.BinarySearch    
+
+    }
+
+    /**
+    *
+    * 3.3 linear search
+    *
+    * @param    A   search string
+    * @param    V   find value
+    */
+    /*
+    public static Boolean linearSearch(String [ ] A, String V) {
+        for (int k=0; k<A.length; k++) {
+            if (A[k].equals(V)) {
+                return true;
+            }
+        }
+        return false;
+    }
+    */
+
+    /**
+    *
+    * 3.3 sorted linear search
+    *
+    * @param    A   sorted search string
+    * @param    V   find value
+    */
+    /*
+    public static Boolean sortedLinearSearch (String [ ] A, String V) {
+        for (int k=0; k<A.length; k++) {
+            int compare = A[k].compareTo(V);
+            if (compare == 0) {
+                return true;
+            }
+            if (compare > 0) {
+                return false;
+            }
+        }
+        return false;
+    }
+    */
+
+    /**
+    *
+    * 3.3 binary search
+    *
+    * @param    A       sorted search string
+    * @param    left    index
+    * @param    right   index
+    * @param    V       find value
+    */
+    /*
+    public static Boolean binarySearch(String [ ] A, int left, int right, String V) {
+         int middle;
+
+         if (left > right) {
+             return false;
+         }
+
+         middle = (left + right)/2;
+         int compare = V.compareTo(A[middle]);
+         if (compare == 0) {
+             return true;
+         }
+         if (compare < 0) {
+             return binarySearch(A, left, middle-1, V);
+         } else {
+             return binarySearch(A, middle + 1, right, V);
+         }
+     }
+     */
+
+
 }
