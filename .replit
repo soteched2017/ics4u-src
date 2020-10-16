@@ -129,6 +129,38 @@ run = "javac unit3/Unit3Main.java && java -cp . unit3.Unit3Main"
 
 # to do
 
+
+#####################################
+# OOP - javatutorial.net
+#####################################
+
+
+# abstraction
+#############
+
+# notice there is no main()
+
+# run = "javac net/javatutorial/oop/abstraction/Contractor.java net/javatutorial/oop/abstraction/Employee.java net/javatutorial/oop/abstraction/FullTimeEmployee.java"
+
+
+# encapsulation
+###############
+
+# run = "javac net/javatutorial/oop/encapsulation/EncapsulationExample.java net/javatutorial/oop/encapsulation/Car.java && java net.javatutorial.oop.encapsulation.EncapsulationExample"
+
+
+# inheritance
+#############
+
+# run = "javac net/javatutorial/oop/inheritance/Point.java  net/javatutorial/oop/inheritance/PointColored.java  net/javatutorial/oop/inheritance/InheritanceExample.java && java net.javatutorial.oop.inheritance.InheritanceExample"
+
+
+# polymorphism
+##############
+
+# run = "javac net/javatutorial/oop/polymorphism/Animal.java net/javatutorial/oop/polymorphism/Cat.java net/javatutorial/oop/polymorphism/Dog.java net/javatutorial/oop/polymorphism/PolymorphismExample.java && java net.javatutorial.oop.polymorphism.PolymorphismExample"
+
+
 #####################################
 # optional
 #####################################
