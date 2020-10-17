@@ -103,8 +103,21 @@ run = "java -version && javac Main.java && java -cp . Main"
 #           swing-layout-1.0.3.jar
 #           appframework-1.0.3.jar
 
+# netbeans-12
 
 # run = "mkdir -p ide-project/netbeans-12/CarsExample/build/classes && javac -d ide-project/netbeans-12/CarsExample/build/classes -cp ide-project/netbeans-12/CarsExample/lib/appframework-1.0.3.jar:ide-project/netbeans-12/CarsExample/lib/swing-worker-1.1.jar:ide-project/netbeans-12/CarsExample/lib/swing-layout-1.0.3.jar ide-project/netbeans-12/CarsExample/src/carsexample/CarsExampleApp.java ide-project/netbeans-12/CarsExample/src/carsexample/CarsExampleAboutBox.java ide-project/netbeans-12/CarsExample/src/carsexample/CarsExampleView.java && cp -r ide-project/netbeans-12/CarsExample/src/carsexample/resources ide-project/netbeans-12/CarsExample/build/classes/carsexample/ && java -cp .:ide-project/netbeans-12/CarsExample/build/classes:ide-project/netbeans-12/CarsExample/lib/appframework-1.0.3.jar:ide-project/netbeans-12/CarsExample/lib/swing-worker-1.1.jar:ide-project/netbeans-12/CarsExample/lib/swing-layout-1.0.3.jar carsexample.CarsExampleApp"
+
+# eclipse-2020-06 compile
+
+# run = "javac -d ide-project/eclipse-2020-06/CarObjectExample/bin -cp ide-project/eclipse-2020-06/CarObjectExample/lib/appframework-1.0.3.jar:ide-project/eclipse-2020-06/CarObjectExample/lib/swing-worker-1.1.jar:ide-project/eclipse-2020-06/CarObjectExample/lib/swing-layout-1.0.3.jar ide-project/eclipse-2020-06/CarObjectExample/src/carsexample/CarsExampleApp.java ide-project/eclipse-2020-06/CarObjectExample/src/carsexample/CarsExampleAboutBox.java ide-project/eclipse-2020-06/CarObjectExample/src/carsexample/CarsExampleView.java ide-project/eclipse-2020-06/CarObjectExample/src/carsexample/Car.java ide-project/eclipse-2020-06/CarObjectExample/src/carsexample/ObjectArrayExample.java && cp -r ide-project/eclipse-2020-06/CarObjectExample/src/carsexample/resources ide-project/eclipse-2020-06/CarObjectExample/bin/carsexample/"
+
+# eclipse-2020-06 CarsExampleApp
+
+# run = "java -cp .:ide-project/eclipse-2020-06/CarObjectExample/bin:ide-project/eclipse-2020-06/CarObjectExample/lib/appframework-1.0.3.jar:ide-project/eclipse-2020-06/CarObjectExample/lib/swing-worker-1.1.jar:ide-project/eclipse-2020-06/CarObjectExample/lib/swing-layout-1.0.3.jar carsexample.CarsExampleApp"
+
+# eclipse-2020-06 ObjectArrayExample
+
+# run = "java -cp .:ide-project/eclipse-2020-06/CarObjectExample/bin:ide-project/eclipse-2020-06/CarObjectExample/lib/appframework-1.0.3.jar:ide-project/eclipse-2020-06/CarObjectExample/lib/swing-worker-1.1.jar:ide-project/eclipse-2020-06/CarObjectExample/lib/swing-layout-1.0.3.jar carsexample.ObjectArrayExample"
 
 
 #####################################
@@ -148,7 +161,7 @@ run = "java -version && javac Main.java && java -cp . Main"
 # unit 4
 #####################################
 
-# to do
+# there was no code examples
 
 
 #####################################
