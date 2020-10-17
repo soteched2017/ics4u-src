@@ -21,7 +21,8 @@ public class BinarySearch {
         BufferedReader br = null;
 
         try {
-            String path = "./";
+            // String path = "./"; // NetBeans
+            String path = "./unit3/BinarySearchFileRead/"; // repl.it
             br = new BufferedReader(new FileReader(path + "colours.txt"));
             String word;
             while ((word = br.readLine()) != null ){

@@ -1,10 +1,10 @@
 # last modified 20201016 
 
 #####################################
-# run all 
+# run units 1 thru 4 
 #####################################
 
-# run = "java -version && javac Main.java && java -cp . Main"
+run = "java -version && javac Main.java && java -cp . Main"
 
 
 #####################################
@@ -111,19 +111,41 @@
 # unit 3
 #####################################
 
-run = "javac unit3/Unit3Main.java && java -cp . unit3.Unit3Main"
+# run = "javac unit3/Unit3Main.java && java -cp . unit3.Unit3Main"
 
 # 3.2 Hanoi
 ###########
 
 # run = "javac -d ide-project/netbeans-12/Hanoi/build/classes -cp .:ide-project/netbeans-12/Hanoi/src ./ide-project/netbeans-12/Hanoi/src/hanoi/Main.java && java -cp .:./ide-project/netbeans-12/Hanoi/build/classes hanoi.Main"
 
-
 # 3.2 WordScramble
 ##################
 
 # run = "javac -d ide-project/netbeans-12/WordScramble/build/classes -cp .:ide-project/netbeans-12/WordScramble/src ./ide-project/netbeans-12/WordScramble/src/wordscramble/Main.java && java -cp .:./ide-project/netbeans-12/WordScramble/build/classes wordscramble.Main"
 
+# 3.3 LinearSearch
+##################
+
+run = "javac -d unit3/LinearSearch/build/classes -cp unit3/LinearSearch/src unit3/LinearSearch/src/linearsearch/LinearSearch.java && java -cp unit3/LinearSearch/build/classes linearsearch.LinearSearch"
+
+# 3.3 BinarySearch
+##################
+
+run = "javac -d unit3/BinarySearch/build/classes -cp unit3/BinarySearch/src unit3/BinarySearch/src/binarysearch/BinarySearch.java && java -cp unit3/BinarySearch/build/classes binarysearch.BinarySearch"
+
+# 3.3 BinarySearchIteration
+###########################
+
+run = "javac -d unit3/BinarySearchIteration/build/classes -cp unit3/BinarySearchIteration/src unit3/BinarySearchIteration/src/binarysearchiteration/BinarySearchIteration.java && java -cp unit3/BinarySearchIteration/build/classes binarysearchiteration.BinarySearchIteration"
+
+# 3.3 BinarySearchFileRead
+##########################
+
+run = "javac -d unit3/BinarySearchFileRead/build/classes -cp unit3/BinarySearchFileRead/src unit3/BinarySearchFileRead/src/binarysearch/BinarySearch.java && java -cp unit3/BinarySearchFileRead/build/classes binarysearch.BinarySearch"
+
+
+
+#java -cp unit3/BinarySearchFileRead:unit3/BinarySearchFileRead/build/classes binarysearch.BinarySearch    
 
 #####################################
 # unit 4
