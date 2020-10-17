@@ -20,10 +20,9 @@ public class Unit3Main {
 
         print2(); // 3.2 content
         print3();
-        // print4();
-        // print5();
-        // print6();
-
+        print4();
+        print5();
+        
     }
     
 
@@ -33,6 +32,8 @@ public class Unit3Main {
     *
     */
     public static void print2() {
+
+        System.out.println();
 
         System.out.println("//////////////////////////////////////////////////////");
         System.out.println("// 3.2 recursion");
@@ -91,6 +92,8 @@ public class Unit3Main {
 
         System.out.println();
         System.out.println("// 3.2 assignments - must all use recursion");
+
+        System.out.println();
 
     }
 
@@ -202,9 +205,10 @@ public class Unit3Main {
         System.out.println("// 3.3 see BinarySearchIteration NetBeans project");
         // java -cp unit3/BinarySearchIteration/build/classes binarysearchiteration.BinarySearchIteration
 
-        // TO DO: fix path
-        System.out.println("// 3.3 see BinarySearchFileRead NetBeans project");        
-        // java -cp unit3/BinarySearchFileRead:unit3/BinarySearchFileRead/build/classes binarysearch.BinarySearch    
+        
+        System.out.println("// 3.3 see BinarySearchFileRead NetBeans project");   // java -cp unit3/BinarySearchFileRead:unit3/BinarySearchFileRead/build/classes binarysearch.BinarySearch
+
+        System.out.println();
 
     }
 
@@ -278,5 +282,126 @@ public class Unit3Main {
      }
      */
 
+
+    /**
+    *
+    * 3.4 content examples
+    *
+    */
+    public static void print4() {
+
+        System.out.println("//////////////////////////////////////////////////////");
+        System.out.println("// 3.4 sorting algoritms");
+        System.out.println("//////////////////////////////////////////////////////");
+
+        System.out.println();
+        System.out.println("// 3.4 see selection sort comments");
+        // selection sort
+        /////////////////
+        // A - an array containing the list of numbers
+        // numItems - the number of numbers in the list
+        // for i = 0 to numItems - 2
+        //     for  j = i+1 to numItems - 1
+        //         if A[i] > A[j]
+        //         // Swap the entries
+        //         Temp = A[i]
+        //         A[i] = A[j]
+        //         A[j] = Temp
+
+        System.out.println();
+        System.out.println("// 3.4 see bubble sort comments");
+        // bubble sort
+        //////////////
+        // A - array containing the list of numbers
+        // numItems - the number of numbers in the list
+        // sw - swap
+        // bottom =  numItems – 1
+        // sw = true
+        // while  sw = true do
+        //     sw = false
+        //             for j = 0 to bottom
+        //             if A[j] > A[j+1] then swap
+        //             next j
+        //     bottom = bottom – 1
+        // end while
+        // swap subroutine
+        // sw = true
+        // temp = A[j]
+        // A[j] = A[j+1]
+        // A[j+1] = temp
+
+        System.out.println();
+        System.out.println("// 3.4 see insertion sort comments");
+        // insertion sort
+        /////////////////
+        // A - array containing the list of numbers
+        // numItems - the number of numbers in the list
+        // for n = 1 to numItems - 1
+        //     j = n
+        //     while (j  >  0) and (A[j-1] > A[j]) do
+        //                 temp = A[j]
+        //         A[j] = A[j-1]
+        //                 A[j-1] = temp
+        //         j = j – 1
+        //     end while
+        // next n
+
+        System.out.println();
+        System.out.println("// 3.4 see quick sort comments");
+        // quick sort
+        /////////////
+        // quicksort(a[], p, r)
+        //    if r>p then
+	    //  j=partition(a[], p, r)
+	    //  quicksort(a[], p, j-1)
+     	//      quicksort(a[], j+1, r)
+        //
+     	// partition(a[], p, r)
+     	//     i=p
+     	//     j=r+1
+     	//     pivot=a[p]
+     	//     do { 
+     	//          do i=i+1 while (a[i]<pivot)
+     	//          do j=j-1 while (a[j]>pivot)
+     	//          if (i<j) exchange(a[i], a[j])
+     	//        }while (i<j)
+     	//     exchange(a[p], a[j])
+     	//     return j
+
+        System.out.println();
+        System.out.println("// 3.4 algorithm efficiency: calculating duration");
+
+        long start = System.currentTimeMillis();
+    
+        // put your search/sort process here
+
+        long finish = System.currentTimeMillis();
+
+        // note: watch for copy/paste errors!
+        // long elapsed = finish – start; // error: illegal character: '\u2013'
+        long elapsed = finish - start;
+
+        System.out.println();
+    }
+
+
+    /**
+    *
+    * 3.5 content examples
+    *
+    */
+    public static void print5() {
+
+        
+        System.out.println
+        ("//////////////////////////////////////////////////////");
+        System.out.println("// 3.5 external data");
+        System.out.println("//////////////////////////////////////////////////////");
+
+        System.out.println();
+        System.out.println("// 3.5 ");
+
+        System.out.println();
+    }
 
 }

@@ -126,22 +126,22 @@ run = "java -version && javac Main.java && java -cp . Main"
 # 3.3 LinearSearch
 ##################
 
-run = "javac -d unit3/LinearSearch/build/classes -cp unit3/LinearSearch/src unit3/LinearSearch/src/linearsearch/LinearSearch.java && java -cp unit3/LinearSearch/build/classes linearsearch.LinearSearch"
+# run = "javac -d unit3/LinearSearch/build/classes -cp unit3/LinearSearch/src unit3/LinearSearch/src/linearsearch/LinearSearch.java && java -cp unit3/LinearSearch/build/classes linearsearch.LinearSearch"
 
 # 3.3 BinarySearch
 ##################
 
-run = "javac -d unit3/BinarySearch/build/classes -cp unit3/BinarySearch/src unit3/BinarySearch/src/binarysearch/BinarySearch.java && java -cp unit3/BinarySearch/build/classes binarysearch.BinarySearch"
+# run = "javac -d unit3/BinarySearch/build/classes -cp unit3/BinarySearch/src unit3/BinarySearch/src/binarysearch/BinarySearch.java && java -cp unit3/BinarySearch/build/classes binarysearch.BinarySearch"
 
 # 3.3 BinarySearchIteration
 ###########################
 
-run = "javac -d unit3/BinarySearchIteration/build/classes -cp unit3/BinarySearchIteration/src unit3/BinarySearchIteration/src/binarysearchiteration/BinarySearchIteration.java && java -cp unit3/BinarySearchIteration/build/classes binarysearchiteration.BinarySearchIteration"
+# run = "javac -d unit3/BinarySearchIteration/build/classes -cp unit3/BinarySearchIteration/src unit3/BinarySearchIteration/src/binarysearchiteration/BinarySearchIteration.java && java -cp unit3/BinarySearchIteration/build/classes binarysearchiteration.BinarySearchIteration"
 
 # 3.3 BinarySearchFileRead
 ##########################
 
-run = "javac -d unit3/BinarySearchFileRead/build/classes -cp unit3/BinarySearchFileRead/src unit3/BinarySearchFileRead/src/binarysearch/BinarySearch.java && java -cp unit3/BinarySearchFileRead/build/classes binarysearch.BinarySearch"
+# run = "javac -d unit3/BinarySearchFileRead/build/classes -cp unit3/BinarySearchFileRead/src unit3/BinarySearchFileRead/src/binarysearch/BinarySearch.java && java -cp unit3/BinarySearchFileRead/build/classes binarysearch.BinarySearch"
  
 
 #####################################
