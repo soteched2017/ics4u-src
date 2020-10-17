@@ -99,3 +99,9 @@ public class XOMExample {
 }
 
 
+// hint:
+// for the assignment see the following
+// http://www.jdom.org/downloads/
+// http://www.studytrails.com/java/xml/jdom2/java-xml-jdom2-introduction/
+// https://www.studytrails.com/java/xml/jdom2/java-xml-jdom2-example-usage/
+
