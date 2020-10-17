@@ -142,10 +142,7 @@ run = "javac -d unit3/BinarySearchIteration/build/classes -cp unit3/BinarySearch
 ##########################
 
 run = "javac -d unit3/BinarySearchFileRead/build/classes -cp unit3/BinarySearchFileRead/src unit3/BinarySearchFileRead/src/binarysearch/BinarySearch.java && java -cp unit3/BinarySearchFileRead/build/classes binarysearch.BinarySearch"
-
-
-
-#java -cp unit3/BinarySearchFileRead:unit3/BinarySearchFileRead/build/classes binarysearch.BinarySearch    
+ 
 
 #####################################
 # unit 4
