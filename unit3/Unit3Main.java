@@ -399,9 +399,23 @@ public class Unit3Main {
         System.out.println("//////////////////////////////////////////////////////");
 
         System.out.println();
-        System.out.println("// 3.5 ");
+        System.out.println("// 3.5 1/3 see XMLExample/information.xml");
 
         System.out.println();
+        System.out.println("// 3.5 2/3 see XMLExample/Main.java");
+
+        System.out.println();
+        System.out.println("// 3.5 2/3 see XMLModify");
+
+        System.out.println();
+        System.out.println("// 3.5 2/3 see ReadandPrintXML");
+
+        System.out.println();
+        System.out.println("// 3.5 3/3 see the XOM library demo project, XMLWeather);
+        System.out.println("// 3.5 3/3 note that a different library, JDOM, is used for the assignment");
+
+        System.out.println();
+
     }
 
 }

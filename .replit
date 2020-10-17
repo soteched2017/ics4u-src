@@ -155,7 +155,30 @@ run = "java -version && javac Main.java && java -cp . Main"
 ##########################
 
 # run = "javac -d unit3/BinarySearchFileRead/build/classes -cp unit3/BinarySearchFileRead/src unit3/BinarySearchFileRead/src/binarysearch/BinarySearch.java && java -cp unit3/BinarySearchFileRead/build/classes binarysearch.BinarySearch"
- 
+
+# 3.5 XML
+#########
+
+# run = "javac unit3/XMLExample/Main.java && java -cp unit3 XMLExample.Main"
+
+# 3.5 XMLModify
+###############
+
+# run = "cp -r ./unit3/XMLModify/information.xml ./unit3/XMLModify/build/classes/ && javac -d ./unit3/XMLModify/build/classes ./unit3/XMLModify/src/xmlmodify/Main.java && java -cp unit3/XMLModify/build/classes xmlmodify.Main"
+
+# 3.5 ReadandPrintXMLFile
+#########################
+
+# run = "javac -d ./unit3/ReadandPrintXMLFile/build/classes ./unit3/ReadandPrintXMLFile/src/readandprintxmlfile/Main.java && java -cp ./unit3/ReadandPrintXMLFile/build/classes readandprintxmlfile.Main"
+
+# 3.5 XMLWeather
+################
+
+# note: see NodeLister and XOMExample instead
+
+# run = "javac -d ./unit3/XMLWeather/build/classes -cp .:./unit3/XMLWeather/lib/xom-1.2.6.jar ./unit3/XMLWeather/src/NodeLister.java && java -cp .:./unit3/XMLWeather/lib/xom-1.2.6.jar:./unit3/XMLWeather/build/classes/ NodeLister https://www.learningcontainer.com/wp-content/uploads/2020/03/Sample-employee-XML-file.xml"
+
+# run = "javac -d ./unit3/XMLWeather/build/classes -cp .:./unit3/XMLWeather/lib/xom-1.2.6.jar ./unit3/XMLWeather/src/XOMExample.java && java -cp .:./unit3/XMLWeather/lib/xom-1.2.6.jar:./unit3/XMLWeather/build/classes/ XOMExample"
 
 #####################################
 # unit 4
