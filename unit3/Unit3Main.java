@@ -393,8 +393,7 @@ public class Unit3Main {
     public static void print5() {
 
         
-        System.out.println
-        ("//////////////////////////////////////////////////////");
+        System.out.println("//////////////////////////////////////////////////////");
         System.out.println("// 3.5 external data");
         System.out.println("//////////////////////////////////////////////////////");
 
@@ -411,7 +410,7 @@ public class Unit3Main {
         System.out.println("// 3.5 2/3 see ReadandPrintXML");
 
         System.out.println();
-        System.out.println("// 3.5 3/3 see the XOMExample demo project, XMLWeather);
+        System.out.println("// 3.5 3/3 see the XOMExample demo project, XMLWeather");
         System.out.println("// 3.5 3/3 note that a different library, JDOM, is used for the assignment");
 
         System.out.println();
