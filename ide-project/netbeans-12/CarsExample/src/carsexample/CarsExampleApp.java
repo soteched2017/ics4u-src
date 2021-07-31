@@ -1,3 +1,7 @@
+// please see the files:
+//              read me - fix project.pdf
+//              quickfix-CarsExample.png
+
 /*
  * CarsExampleApp.java
  */

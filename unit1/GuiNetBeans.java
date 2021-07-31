@@ -1,5 +1,5 @@
 /**
- * this program demonstrates the use of graphics in NetBeans
+ * demonstrates the use of graphics in NetBeans
  * also, see the manually coded version CodedGUI
  * 
  * modified     20200919

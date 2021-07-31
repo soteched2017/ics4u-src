@@ -368,6 +368,26 @@ public class Unit3Main {
      	//     exchange(a[p], a[j])
      	//     return j
 
+        /*
+        int [] myIntArray = new int[1000];
+        for (int i = 0; i < myIntArray.length; ++i) {
+            myIntArray[i] = (int)(Math.random() * 1000) + 1;
+        }
+        for (int i = 0; i < myIntArray.length; ++i) {
+            System.out.print(myIntArray[i] + " ");
+        }
+        System.out.println("\n");
+        quickSort(myIntArray, 0, myIntArray.length-1);
+        for (int i = 0; i < myIntArray.length; ++i) {
+            System.out.print(myIntArray[i] + " ");
+        }
+        System.out.println("\n");
+        */
+
+        // https://www.hackerearth.com/practice/algorithms/sorting/quick-sort/visualize/
+        // https://stackoverflow.com/questions/62731401/quicksort-visualisation-via-java-swing
+
+
         System.out.println();
         System.out.println("// 3.4 algorithm efficiency: calculating duration");
 
@@ -383,6 +403,42 @@ public class Unit3Main {
 
         System.out.println();
     }
+
+    // https://github.com/deepak-malik/Algorithms-In-Java/blob/master/src/com/deepak/algorithms/Sorting/QuickSort.java
+    private static void quickSort(int[] values, int low, int high) {
+		/* Find middle element and pivot value */
+		int middle = low + (high - low) / 2;
+		int pivot = values[middle];
+		/* Update low and high position */
+		int i = low, j = high;
+		while (i < j) {
+			/* If the current value from the left list, is smaller then the pivot, move to next element */
+			while (values[i] < pivot) {
+				i++;
+			}
+			/* If the current value from the right list, is greater then the pivot, move to previous element */
+			while (values[j] > pivot) {
+				j--;
+			}
+			/* If we find a value in the left list which is larger then the pivot, 
+			 * or if we find a value in the right list which is smaller then the pivot, 
+			 * we swap these values. Once we are done swapping, we can increase i and decrease j */
+			if (i <= j) {
+				int temp = values[j];
+				values[j] = values[i];
+				values[i] = temp;
+				i++;
+				j--;
+			}
+			/* Apply quick sort on both left and right*/
+			if (low < j) {
+				quickSort(values, low, j);
+			}
+			if (high > i) {
+				quickSort(values, i, high);
+			}
+		}
+	}
 
 
     /**

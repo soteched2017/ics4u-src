@@ -1,5 +1,5 @@
 /**
- * this program demonstrates the use of graphics
+ * demonstrates the use of graphics
  * also, see the NetBeams version NetBeansJFrameForm
  * 
  * modified     20200919
